@@ -13,7 +13,7 @@
 # -- 
 # -- Copyright (c) 2004 Akinori MUSHA <Akinori@MUSHA.org>
 # -- 
-# -- $Idaemons: /home/cvs/knu/vje/mahjong.vje.txt,v 1.5 2004/08/26 10:33:13 knu Exp $
+# -- $Idaemons: /home/cvs/knu/vje/mahjong.vje.txt,v 1.6 2004/08/26 10:45:55 knu Exp $
 # -- 
 
 １４	一四	【数詞】
@@ -745,7 +745,6 @@
 ほうじゅう	放銃	【名詞】
 ほうちゃん	放銃	【名詞】
 ほうてい	河底	【名詞】
-ほうてい	河底撈魚	【名詞】
 ほおていらおゆい	河底撈魚	【名詞】
 ほんいーそー	混一色	【名詞】
 ほんいち	混一	【名詞】
