@@ -11,9 +11,9 @@
 # -- 
 # --                                                      Éð¼Ô ¾½µª
 # -- 
-# -- Copyright (c) 2004-2007 Akinori MUSHA <Akinori@MUSHA.org>
+# -- Copyright (c) 2004-2008 Akinori MUSHA <Akinori@MUSHA.org>
 # -- 
-# -- $Idaemons: /home/cvs/knu/vje/mahjong.vje.txt,v 1.15 2008/07/16 08:57:14 knu Exp $
+# -- $Id$
 # -- 
 
 £±£´	°ì»Í	¡Ú¿ô»ì¡Û
