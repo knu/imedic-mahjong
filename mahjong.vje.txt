@@ -5,13 +5,17 @@
 # -- この辞書の（編集）著作権は、これを利用して入力した文章には
 # -- 及びません。文章の著作権は、その著作者に属します。
 # --
-# -- この変換辞書データおよび改変・派生物の再配布については、
-# -- 著作権表示を含むこのライセンス表示の維持・明記を条件とした上で
-# -- 認めます。
+# -- この変換辞書データはクリエイティブ・コモンズ「表示-継承 2.1 日本」
+# -- ライセンスの下で利用できます。詳細は次のサイトを参照してください。
+# --
+# --     http://creativecommons.org/licenses/by-sa/2.1/jp/
 # -- 
 # --                                                      武者 晶紀
 # -- 
-# -- Copyright (c) 2004-2008 Akinori MUSHA <Akinori@MUSHA.org>
+# -- This work is licensed and protected under a Creative Commons
+# -- Attribution-Share Alike 2.1 Japan License.
+# -- 
+# -- Copyright (c) 2004-2009 Akinori MUSHA <Akinori@MUSHA.org>
 # -- 
 # -- $Id$
 # -- 
