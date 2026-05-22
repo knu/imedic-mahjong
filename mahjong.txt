@@ -1,7 +1,7 @@
 !!ATOK_TANGO_TEXT_HEADER_1
 !!
 !! 麻雀用語辞書
-!! Revision 22
+!! Revision 23
 !!
 !! この変換辞書データはクリエイティブ・コモンズ「表示-継承 2.1 日本」
 !! ライセンスの下で利用できます。詳細は次のサイトを参照してください。
@@ -16,7 +16,7 @@
 !! This work is licensed and protected under a Creative Commons
 !! Attribution-Share Alike 2.1 Japan License.
 !!
-!! Copyright (c) 2004-2011 Akinori MUSHA <Akinori@MUSHA.org>
+!! Copyright (c) 2004-2026 Akinori MUSHA <Akinori@MUSHA.org>
 !!
 あいかわめぐむ	逢川恵夢	固有一般*
 あかうら	赤裏	名詞*
