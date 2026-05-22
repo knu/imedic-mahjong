@@ -18,9 +18,9 @@
 - [MS-IME形式](https://github.com/knu/imedic-mahjong/releases/latest/download/mahjong.msime.txt)
 - [ことえり形式](https://github.com/knu/imedic-mahjong/releases/latest/download/mahjong.kotoeri.txt)
 
-MS-IME形式は BOM 付き UTF-16LE / CRLF です。
+ATOK形式、MS-IME形式は BOM 付き UTF-16LE / CRLF です。
 
-開発版の元データは [mahjong.txt](./mahjong.txt) です。
+開発版の元データは [mahjong.txt](./mahjong.txt) (UTF-8 / LF) です。
 
 ## 使い方
 

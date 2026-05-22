@@ -33,7 +33,7 @@ jobs:
       - name: Generate dictionaries
         run: |
           set -euo pipefail
-          sed -E 's/\r?$/\r/' mahjong.txt > mahjong.atok.txt
+          atok2atok mahjong.txt > mahjong.atok.txt
           atok2kotoeri mahjong.txt > mahjong.kotoeri.txt
           atok2msime mahjong.txt > mahjong.msime.txt
 
