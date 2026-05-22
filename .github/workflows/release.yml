@@ -1,0 +1,51 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - "r[0-9]*"
+
+permissions:
+  contents: write
+
+env:
+  TZ: Asia/Tokyo
+
+jobs:
+  release:
+    if: ${{ startsWith(github.ref_name, 'r') }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
+        with:
+          persist-credentials: false
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@afeafc3d1ab54a631816aba4c914a0081c12ff2f # v1
+        with:
+          ruby-version: "3.1"
+
+      - name: Install imedic-tools
+        run: gem install imedic-tools
+
+      - name: Generate dictionaries
+        run: |
+          set -euo pipefail
+          sed -E 's/\r?$/\r/' mahjong.txt > mahjong.atok.txt
+          atok2kotoeri mahjong.txt > mahjong.kotoeri.txt
+          atok2msime mahjong.txt > mahjong.msime.txt
+
+      - name: Create release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ github.ref_name }}
+        run: |
+          set -euo pipefail
+          gh release create "$TAG" \
+            --title "$TAG" \
+            --notes "$TAG" \
+            mahjong.atok.txt \
+            mahjong.kotoeri.txt \
+            mahjong.msime.txt
